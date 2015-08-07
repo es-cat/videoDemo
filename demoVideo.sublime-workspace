@@ -1,0 +1,1389 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"mode",
+				"modelViewMatrix"
+			],
+			[
+				"Arr",
+				"ARRAY_BUFFER"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"ho",
+				"host"
+			],
+			[
+				"dT",
+				"dThis"
+			],
+			[
+				"join",
+				"joinGame"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"member",
+				"memberID"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"joI",
+				"joinGame"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"prev",
+				"preventDefault	(main2.js)"
+			],
+			[
+				"content",
+				"content1"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"main",
+				"mainCover"
+			],
+			[
+				"cont",
+				"content3"
+			],
+			[
+				"list",
+				"list-style-position"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"page",
+				"pagePrev	(coupon.html)"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"lin",
+				"line-through"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"st",
+				"static"
+			],
+			[
+				"span",
+				"span"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"bot",
+				"both"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"image",
+				"images/logo"
+			],
+			[
+				"Fix",
+				"fixed"
+			],
+			[
+				"wht",
+				"white-space"
+			],
+			[
+				"whit",
+				"white-space"
+			],
+			[
+				"TRA",
+				"transparent"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"di",
+				"dialog"
+			],
+			[
+				"ajax",
+				"ajax	$.ajax()"
+			],
+			[
+				"wid",
+				"width	.width()"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"whi",
+				"white-space"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"value",
+				"valueBar"
+			],
+			[
+				"bar",
+				"background"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"LIST",
+				"list-style"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"oc",
+				"opacity"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"PAD",
+				"padding"
+			],
+			[
+				"nil",
+				"inline-block"
+			],
+			[
+				"rep",
+				"repeat-x"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"lett",
+				"letter-spacing"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"MAR",
+				"margin"
+			],
+			[
+				"NO",
+				"nowrap"
+			],
+			[
+				"TEX",
+				"text-indent"
+			],
+			[
+				"BA",
+				"background"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"repeat",
+				"repeat-x"
+			],
+			[
+				"unl",
+				"underline"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"app",
+				"appendTo	.appendTo()"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"scroll",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"L",
+				"line-height"
+			],
+			[
+				"bott",
+				"text-bottom"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"tx",
+				"text-align"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"acti",
+				"active"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"label",
+				"label	<label>"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"view",
+				"ViewBag"
+			],
+			[
+				"input",
+				"input	input - text"
+			],
+			[
+				"vi",
+				"visible"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"display",
+				"displayName"
+			],
+			[
+				"div",
+				"tls.createSecurePair(credentials,\n                                    isServer,\n                                    requestCert,\n                                    rejectUnauthorized);"
+			],
+			[
+				"group",
+				"groupName"
+			],
+			[
+				"upload",
+				"uploadUrl"
+			],
+			[
+				"destory",
+				"destoryViews"
+			],
+			[
+				"views",
+				"viewsCtrl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4470,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "video.js",
+			"file_size": 0,
+			"file_write_time": 130833001291969439,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.scss",
+			"settings":
+			{
+				"buffer_size": 731,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index3.html",
+			"settings":
+			{
+				"buffer_size": 12189,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"MAR",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"MARKDOWN",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"MARKD",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"in",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"emmet",
+				"Set Syntax: Emmet"
+			],
+			[
+				"emm",
+				"Emmet: Reflect CSS Value"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"git check",
+				"Git: Checkout"
+			],
+			[
+				"MARK",
+				"Markdown Slideshow"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"node",
+				"Nodejs::Run::Current File + Arguments"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Color Convert: convert"
+			],
+			[
+				"toc",
+				"MarkdownTOC:Update TOC"
+			],
+			[
+				"mardown",
+				"MarkdownTOC:Insert TOC"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"markdown pr",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"m",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown exte",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"markdown ",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"Markdown Extended",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"slide",
+				"Markdown Slideshow: I/O 2011 theme"
+			],
+			[
+				"table",
+				"Snippet: <table>"
+			],
+			[
+				"code",
+				"MdCodeBlock: Wrap Github Flavered Code Block"
+			],
+			[
+				"prev",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"prv",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markdown p",
+				"Markdown Preview: Github Flavored Markdown: Export HTML in Sublime Text"
+			],
+			[
+				"SLID",
+				"Markdown Slideshow: I/O 2012 theme"
+			],
+			[
+				"SLIDE",
+				"Markdown Slideshow: I/O 2012 theme"
+			],
+			[
+				"slid",
+				"Markdown Slideshow: Default theme"
+			],
+			[
+				"MARKDOWN P",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"SLIDW",
+				"Markdown Slideshow: Default theme"
+			],
+			[
+				"markdown s",
+				"Markdown Slideshow: Default theme"
+			],
+			[
+				"makrdown",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"makdown pre",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/laura.luo/Desktop/template_jquery_plugin.js",
+		"/D/myGit/StudyGroup/lala/project/cardReact/js/core_viewsCtrls.js",
+		"/D/myGit/StudyGroup/lala/project/cardUI/js/main.js",
+		"/D/myGit/StudyGroup/lala/project/cardReact/js/helloworld.js",
+		"/D/myGit/StudyGroup/lala/project/cardReact/js/main.js",
+		"/D/myGit/StudyGroup/lala/project/cardReact/js/plugins.js",
+		"/D/myGit/StudyGroup/lala/project/cardReact/js/TreeModel.js",
+		"/D/myGit/StudyGroup/lala/project/cardReact/js/tutorial1.js",
+		"/D/myGit/StudyGroup/lala/project/cardReact/js/main - 複製.js",
+		"/D/myGit/friendo/videoDemo/index3.html",
+		"/D/myGit/friendo/videoDemo/preload/lib/preloadjs-0.6.1.min.js",
+		"/D/myGit/friendo/videoDemo/preload/lib/preloadjs-NEXT.min.js",
+		"/D/myGit/friendo/videoDemo/index2.html",
+		"/D/myGit/friendo/videoDemo/preload/examples/MediaGrid.html",
+		"/D/myGit/friendo/videoDemo/preload/lib/preloadjs-0.6.1.combined.js",
+		"/D/myGit/friendo/videoDemo/index.html",
+		"/D/myGit/escat/bateDeletction/index.html",
+		"/D/myGit/phaser/discover-phaser/01firstProject/phaser.js",
+		"/D/myGit/webAudio/beatDetection/assets/visualizer-sample.js",
+		"/D/myGit/webAudio/beatDetection/assets/shared.js",
+		"/D/myGit/webAudio/beatDetection/beatDetection.sublime-workspace",
+		"/D/myGit/webAudio/webAudioTest/index.html",
+		"/C/Users/laura.luo/Desktop/webAudioTest/assets/style.css",
+		"/C/Users/laura.luo/Desktop/webAudioTest/assets/visualizer-sample.js",
+		"/C/Users/laura.luo/Desktop/webAudioTest/assets/shared.js",
+		"/C/Users/laura.luo/Desktop/webAudioTest/index.html",
+		"/C/Users/laura.luo/Desktop/webAudioTest/assets/css",
+		"/C/Users/laura.luo/Desktop/webAudioTest/assets/ga.js",
+		"/C/Users/laura.luo/Desktop/webAudioTest/Visualizer _ Web Audio API.html",
+		"/C/Users/laura.luo/Desktop/rhythm.js",
+		"/C/Users/laura.luo/Desktop/shared.js",
+		"/D/myGit/phaser/discover-phaser/firstProject/main.js",
+		"/D/myGit/phaser/madeAGame/main.js",
+		"/D/myGit/phaser/madeAGame/index.html",
+		"/D/myGit/phaser/discover-phaser/firstProject/assets/titles.json",
+		"/C/Users/laura.luo/Desktop/test.html",
+		"/D/myGit/friendo/friendodemo/event/phaser/firstProject/main.js",
+		"/D/myGit/phaser/discover-phaser/firstProject/assets/map.json",
+		"/C/Users/laura.luo/Desktop/blur.html",
+		"/D/myGit/phaser/discover-phaser/firstProject/index.html",
+		"/D/myGit/phaser/discover-phaser/02firstProject/main.js",
+		"/D/myGit/webGLstudy/examples/ch02/HelloPoint1.html",
+		"/D/myGit/webGLstudy/examples/ch02/HelloPoint1.js",
+		"/D/myGit/friendo/BrandBase4/template/ayura/scss/style.scss",
+		"/D/myGit/webGLstudy/examples/lib/cuon-matrix.js",
+		"/D/myGit/webGLstudy/examples/lib/webgl-utils.js",
+		"/D/myGit/webGLstudy/examples/lib/webgl-debug.js",
+		"/D/myGit/webGLstudy/examples/lib/cuon-utils.js",
+		"/D/myGit/webGLstudy/test2.html",
+		"/D/myGit/webGLstudy/Programming3DApplications-master/Chapter 1/3dtransforms.html",
+		"/D/myGit/webGLstudy/Programming3DApplications-master/Chapter 2/example2-1.html",
+		"/D/myGit/webGLstudy/Programming3DApplications-master/Chapter 2/example2-2.html",
+		"/D/myGit/webGLstudy/Programming3DApplications-master/Chapter 2/example2-3.html",
+		"/D/myGit/webGLstudy/examples/Appendix/LoadShaderFromFiles.js",
+		"/D/myGit/webGLstudy/examples/Appendix/ColoredTriangle.frag",
+		"/D/myGit/webGLstudy/examples/Appendix/ColoredTriangle.js",
+		"/C/Users/laura.luo/Desktop/homework.js",
+		"/C/Users/laura.luo/Desktop/simpledom2.html",
+		"/D/myGit/friendo/BrandBase4/template/missionpage_taisun/html/aMission.html",
+		"/D/myGit/friendo/BrandBase4/template/tsRose/index.html",
+		"/D/myGit/friendo/BrandBase4/template/missionpage_taisun/html/tp_aMission.html",
+		"/D/myGit/friendo/BrandBase4/template/missionpage_taisun/scss/custom.scss",
+		"/D/myGit/webGLstudy/src/gl-matrix.js",
+		"/C/Users/laura.luo/AppData/Roaming/Sublime Text 2/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
+		"/D/myGit/friendo/BrandBase4/template/missionpage/html/aMission.html",
+		"/D/myGit/friendo/BrandBase4/template/missionpage_bbk2/html/aMission.html",
+		"/D/myGit/friendo/BrandBase4/template/tsRose/scss/style.scss",
+		"/D/myGit/friendo/BrandBase4/template/missionpage_taisun/html/tp_aComment.html",
+		"/D/myGit/friendo/BrandBase4/template/missionpage/scss/style.scss",
+		"/D/myGit/friendo/BrandBase4/template/missionpage_smoda/html/tp_aComment.html",
+		"/D/myGit/friendo/BrandBase4/template/missionpage_smoda/html/tp_aMission.html",
+		"/D/myGit/friendo/BrandBase4/template/missionpage_smoda/html/aMission.html",
+		"/D/myGit/friendo/BrandBase4/template/missionpage_smoda/html/dialog_comment.html",
+		"/D/myGit/friendo/BrandBase4/template/tsRose/cele83.html",
+		"/D/myGit/friendo/BrandBase4/template/tsRose/rule.html",
+		"/C/Users/laura.luo/Desktop/corpTesting/test.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcNFC/index.html",
+		"/C/Users/laura.luo/Desktop/simple.js",
+		"/D/myGit/friendo/BrandBase4/template/missionpage_bbk/html/aMission.html",
+		"/D/myGit/friendo/BrandBase4/template/nike/html/tp_index.html",
+		"/D/myGit/friendo/BrandBase4/template/areas/areaID_nikeTipsBonus.cshtml",
+		"/D/myGit/friendo/BrandBase4/template/ctbcEval/index.html",
+		"/D/Fed_Study/F2E course/web/template_singleton.js",
+		"/D/Fed_Study/F2E course/web/template_jquery_plugin.js",
+		"/D/myGit/friendo/friendo_sit/Projects/Content/ctbcCoolCard/script/module.js",
+		"/D/Project/玫瑰卡/api.md",
+		"/D/myGit/friendo/friendo_sit/Projects/Content/taishinRose/js/main2.js",
+		"/D/myGit/friendo/friendo_sit/Projects/Content/taishinRose/js/main.js",
+		"/D/Fed_Study/F2E course/web/template_module.html",
+		"/D/Fed_Study/F2E course/web/template_class.js",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/scss/style.scss",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/rule.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/card.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/css/reset-font-min.css",
+		"/D/myGit/friendo/BrandBase4/template/ctbcNFC/scss/style.scss",
+		"/D/myGit/friendo/BrandBase4/template/ctbcNFC/css/reset.css",
+		"/D/myGit/friendo/BrandBase4/template/ctbcNFC/rule.html",
+		"/C/Users/laura.luo/Desktop/corpTesting/ImageResizeCropCanvas/ImageResizeCropCanvas/js/component.js",
+		"/D/myGit/friendo/BrandBase4/template/ctbcEval/js/script.js",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/index.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/step1.html",
+		"/C/Users/laura.luo/Desktop/test.1html.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/step2.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcEval/step.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/myList.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/allList.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/card_tipInfo_list.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/tagboard.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/prepros.cfg",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/index備用版.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/listPop共用.html",
+		"/D/myGit/friendo/FriendoWeb20_04/web/FriendoFrontend2.0/FriendoWeb 2.0/Areas/iPage/Views/iPagecshtml/areaID_missionContribute_rd.cshtml",
+		"/D/myGit/friendo/BrandBase4/template/ctbcEval/scss/style.scss",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/images/index_Bg.png",
+		"/D/myGit/friendo/BrandBase4/template/ctbcEval/result.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcCoolCard/scss/stylep備份.scss",
+		"/D/myGit/friendo/BrandBase4/template/ctbcEval/stepPopup.html",
+		"/D/Project/估價王/rule_mb.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcEval/coupon.html",
+		"/D/myGit/friendo/BrandBase4/template/ctbcEval/rule.html",
+		"/D/myGit/pathsConvert.js",
+		"/D/myGit/friendo/BrandBase4/template/missionForZKGGenerator/scss/template.scss",
+		"/D/myGit/friendo/BrandBase4/template/ctbcEval/stepAns.html",
+		"/D/myGit/GreenSock-ShockinglyGreen-js/GreenSock-ShockinglyGreen-js/berizerTest.html",
+		"/D/myGit/GreenSock-ShockinglyGreen-js/GreenSock-ShockinglyGreen-js/getting_started.html",
+		"/D/myGit/myBlog/source/_drafts/web-animation-02-1-css3-transform.md",
+		"/C/Users/laura.luo/Desktop/motion_paths_start.html",
+		"/C/Users/laura.luo/Desktop/motion_paths_start_edgePreload.js"
+	],
+	"find":
+	{
+		"height": 217.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			"",
+			"ghost_aMission.html",
+			"",
+			"open files",
+			"",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\">",
+			"load",
+			"mp4Urls",
+			"countIntervalsBetweenNearbyPeaks",
+			"this.source",
+			"this.buffer",
+			"sampleRate",
+			"this.source",
+			"BufferLoader",
+			"loadBuffer",
+			"bufferLoader",
+			"context",
+			"Context",
+			"context",
+			"content",
+			"getFrequencyValue",
+			"loadSounds",
+			"start",
+			"new",
+			"start",
+			"new",
+			"mew",
+			"VisualizerSample",
+			"VisualizerSample(",
+			"VisualizerSample",
+			"playSound",
+			"createBufferSource",
+			"new",
+			"sample",
+			"var sample",
+			"sample",
+			"sample = new",
+			"sample",
+			" this.analyser.connect",
+			"analyser",
+			"createAnalyser",
+			"create",
+			"node",
+			"playSound",
+			"source",
+			"RhythmSample",
+			"img",
+			"this.img_musicStage",
+			"jumpSound",
+			"jump",
+			"cursor",
+			"this.cursor.left",
+			"animations",
+			"this.moveLeft",
+			"addOnce",
+			"movePlayer",
+			"'left'",
+			"player",
+			"createWorld",
+			"key",
+			"keyboard",
+			"background",
+			"toggle",
+			"scoreLabel",
+			"initShaders",
+			"getWebGLContext",
+			"initMatrices",
+			"initWebGL",
+			" vertexAttribPointer",
+			"+\"",
+			"vertexShaderSource",
+			"createShader",
+			"createProgram",
+			"shaderProgram",
+			"createShader",
+			"940",
+			"bdInner",
+			"bord",
+			"trMissionExecution",
+			"使用說明：持 Pincode 號碼於8/31前至全家就可換購泰山純水乙瓶",
+			"stepWarp",
+			"code",
+			"myComment",
+			"getHrefAndReplace",
+			"uid",
+			"getAccessToken",
+			"appId",
+			"appId      ",
+			"isGameOver",
+			"dJoinButton",
+			"rex",
+			"SP",
+			"sp",
+			"SP",
+			"sp",
+			"SP",
+			"h",
+			":after",
+			"　",
+			".rule",
+			".rule {",
+			"em",
+			".rule",
+			"resize-handle",
+			"resizeImage",
+			"index_cityBg.png",
+			"footer",
+			".rule",
+			"container_rwd",
+			"footer",
+			"card",
+			" .tipInfo",
+			"footer",
+			"225",
+			"padding-bottom: 225",
+			".step2",
+			"url(../images/inner_cityBg.png) center bottom no-repeat",
+			".rule",
+			"min-height: 900px;",
+			"#fixFooter_rwd",
+			".coolIndex",
+			"../images/index_Bg.png",
+			"url(../images/index_Bg.png)",
+			"period",
+			"rule",
+			"popContent",
+			"contentPop",
+			"postPop",
+			"content",
+			"footer",
+			"post",
+			"src=\"/images",
+			"/images"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"rem",
+			"url(../images/inner_cityBg.png) center top no-repeat",
+			"src=\"images",
+			"images",
+			".cube",
+			"/images",
+			"/images/",
+			"./images/",
+			"step3：",
+			"step2：",
+			"step1：",
+			"）",
+			"（",
+			"<a class=\"link\" href=\"http://www.tigerair.com\" target=\"_blank\">www.tigerair.com</a>",
+			"",
+			"margin: 1.5% auto 0 auto;",
+			"margin: 2% auto 0 auto;",
+			"grid-width(12)",
+			"ctbcFooter",
+			"ctbcFB",
+			"ctbcNav",
+			"http://site.friendo.com.tw/ayura/",
+			"url(http://site.friendo.com.tw/content/ayura/",
+			"src=\"../images/",
+			"src=\"../images/4_teach_01.png\"",
+			"template",
+			"TStar",
+			"suitID_tStar",
+			"++_This.token",
+			"_This",
+			"getInitialState",
+			"setInitialState",
+			"props.",
+			"http://www.friendo.com.tw/Mission/3729",
+			"http://friendoprod.blob.core.windows.net/ipage/mission/content_generator/zkg/images/bg_bar_ball.png",
+			"box-mask",
+			"box-ft",
+			"box-bd",
+			"box-hd",
+			"box",
+			"m-box",
+			"m-Box",
+			"is-unfocus",
+			"is-focus",
+			"l-main",
+			"l-sideBar",
+			"mdBox",
+			"filter: alpha(opacity = 60);",
+			"if(subDatas !=null && subDatas.subContents !=null && subDatas.subContents.length > 0){  ",
+			"",
+			"<tr>",
+			"",
+			"<tr>",
+			"",
+			"span",
+			"h3",
+			"",
+			"class=\"md",
+			".md",
+			"",
+			"class=\"boxCtrlBtn btn btn-default\"",
+			"description: '想與 Hello Kitty 來場浪漫的甜蜜約會嗎? 各位 Kitty 迷們，千載難逢的機會來囉！只要發送 Hello Kitty 遊台灣邀請函給好友，就有機會與 Hello Kitty 近距離接觸，完成5個任務還能抽100公分的超大Kitty，好東西就是要與好朋友分享，一起來邀請好友吧！ ',",
+			"caption: '【粉多遊玩趣】Hello Kitty 遊台灣邀請函',",
+			"watermark=hellokitty01",
+			"分享任務",
+			"hellokitty",
+			"suitID_hellokitty",
+			"http://www.flyvair.com/vair/vday",
+			"http://friendoprod.blob.core.windows.net/ipage/template/19/images/",
+			"Model.",
+			"http://friendosit.blob.core.windows.net/ipage/template/54/images/",
+			"bear",
+			"../images/baer/",
+			"(images/",
+			"../images/",
+			"siteName",
+			"- ",
+			"@include btn-xl();",
+			"$commonPath+\"/images/",
+			"btnReward btn-primary",
+			"btn btnReward missionJoinBtn ",
+			"data-tipinfo",
+			"data-share=\"ture\"",
+			"http://friendoprod.blob.core.windows.net/ipage/template/36/images/",
+			" ",
+			"disabled readonly",
+			"required",
+			"disabled  disabled ",
+			"required",
+			"disabled=\"\" readonly=\"\"",
+			"readonly=\"\"",
+			"readonly",
+			"suitID_yuchunSakeGeneratorExecution",
+			"suitID_yuchunSakeGeneratorResult",
+			"suitID_secretGeneratorExecutionForYk",
+			"http://friendoprod.blob.core.windows.net/ipage/template/36/images/",
+			"",
+			"http://friendoprod.blob.core.windows.net/ipage/template/19/images/",
+			"#222",
+			"fonts/",
+			"font/",
+			"../lib/iconFont_icomoon/",
+			"url('$commonPath+\"/iconFont/",
+			".png\")",
+			"url($commonPath+\"/images/",
+			"url($commonPath+\"/images/*\")",
+			"url($commonPath+\"/images/",
+			"\")",
+			"url($commonPath+\"",
+			".png\")",
+			"background: url($commonImagesPath+\"",
+			"url($commonImagesPath+\"",
+			"background: url",
+			".png\")",
+			"background: url($commonImagesPath+\"",
+			"$",
+			"http://friendoprod.blob.core.windows.net/ipage/template/36/images/",
+			"http://friendosit.blob.core.windows.net/ipage/template/48/images/",
+			"space",
+			"src=\"http://friendosit.blob.core.windows.net/ipage/template/48/images/",
+			"href=\"http://friendosit.blob.core.windows.net/ipage/template/48/images/favicon.ico\"",
+			"src=\"http://friendosit.blob.core.windows.net/ipage/template/48/images",
+			"../images/",
+			"",
+			"content=\"http://friendoprod.blob.core.windows.net/ipage/template/32/images/images//weifone_share_img.jpg\"",
+			"areaID_weifoneFooter",
+			"areaID_groupNavExpandLikeBox",
+			"src=\"http://friendoprod.blob.core.windows.net/ipage/template/32/images/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4452,
+								4452
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1242.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "video.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JSX/JSX-real.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "main.scss",
+					"settings":
+					{
+						"buffer_size": 731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								557,
+								557
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index3.html",
+					"settings":
+					{
+						"buffer_size": 12189,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3266,
+								3266
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2553.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.939711664482,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 172.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 394.0,
+	"status_bar_visible": true
+}

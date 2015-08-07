@@ -1,0 +1,45 @@
+body,html {
+	min-height: 100%;
+}
+body {
+	background:#000;
+}
+#video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background:#000;
+    // background: url(polina.jpg) no-repeat;
+    // background-size: cover;
+}
+
+.content {
+	position:relative;
+	z-index: 1px;
+	.btnGroup {
+		margin: 60vh auto 0 auto;
+		height:40vh;
+		width:960px;
+		border: solid 3px rgba(255,255,255,0.5);
+		padding: 20px;
+	}
+	.btn {
+		margin: 0 auto 0 auto;
+		height:30px;
+		width:50%;
+		display:inline-block;
+		text-align: center;
+		border: solid 3px rgba(255,255,255,0.5);
+		padding: 20px;
+		font-size: 24px;
+		text-decoration: none;
+		color:#fff;	
+	}
+}
+

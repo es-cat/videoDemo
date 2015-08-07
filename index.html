@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>video test</title>
+    <link rel="stylesheet" href="main.css" media="all">
+</head>
+
+<body onload="">
+    <!-- <div id="mjpeg_wrapper" style="width: 100%; height: 100%;"></div> -->
+    <video id="video">
+        Fallback content: Your browser does not support the video tag.
+    </video>
+    <div class="content">
+        <div class="btnGroup">
+            <a href="#" class="btn changeSbtn" title="" data-scene="s1">按我切到影片1</a>
+            <a href="#" class="btn changeSbtn" title="" data-scene="s2">按我切到影片2</a>
+            <a href="#" class="btn setTime" title="" data-seekto="5000" data-seekend="5000">按我到五秒後，且撥發五秒後暫停</a>
+            <a href="#" class="btn" title="" data-seekto="5000">按我從五秒後撥到結束</a>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="preloadjs-0.6.1.min.js"></script>
+    <script>
+    var dVideo = $('#video')[0];
+    var dChangeBtn = $('.changeSbtn');
+    var scenes = {
+        s1: {
+            'video/mp4': "http://friendosit.blob.core.windows.net/asset-346b385d-1500-80c3-aee9-f1e535c98a55/big_buck_bunny_1080p_H264_AAC_25fps_7200K_H264_6750kbps_AAC_und_ch2_128kbps.mp4?sv=2012-02-12&sr=c&si=b2694ea7-f5b4-408c-b178-a7bf51753aab&sig=ys0zZUCLvM08e10ZZwmbYc5vpNIB5PkjhMBQFPx6Ri8%3D&st=2015-07-29T08%3A38%3A20Z&se=2115-07-05T08%3A38%3A20Z",
+            'video/webm': 'https://friendosit.blob.core.windows.net/asset-346b385d-1500-80c3-ae57-f1e535c98a55/big_buck_bunny_1080p_H264_AAC_25fps_7200K_H264_4500kbps_AAC_und_ch2_128kbps.mp4?sv=2012-02-12&sr=c&si=078280b5-47be-4ff9-ac7e-d4c99a6b659d&sig=W9esidnJs%2FBrG8o%2FMcko5FfvqvNNLla9CEIL3%2FWB8LQ%3D&st=2015-07-29T08%3A38%3A23Z&se=2115-07-05T08%3A38%3A23Z'
+        },
+        s2: {
+            'video/mp4': 'http://friendosit.blob.core.windows.net/asset-0391385d-1500-80c3-b23e-f1e536925066/The%20Bourne%20Ultimatum%20-%20Trailer.mp4?sv=2012-02-12&sr=c&si=ca6ef73e-dfdf-4997-87e8-7cd7239849f8&sig=33TdYxxBJ5czLTB2NEm3JGObeMDgeGBybwHIFQyCbdc%3D&st=2015-07-30T08%3A11%3A24Z&se=2115-07-06T08%3A11%3A24Z',
+            'video/webm': 'https://friendosit.blob.core.windows.net/asset-346b385d-1500-80c3-ae57-f1e535c98a55/big_buck_bunny_1080p_H264_AAC_25fps_7200K_H264_4500kbps_AAC_und_ch2_128kbps.mp4?sv=2012-02-12&sr=c&si=078280b5-47be-4ff9-ac7e-d4c99a6b659d&sig=W9esidnJs%2FBrG8o%2FMcko5FfvqvNNLla9CEIL3%2FWB8LQ%3D&st=2015-07-29T08%3A38%3A23Z&se=2115-07-05T08%3A38%3A23Z'
+        }
+    };
+
+    var scenesObj = new videoScene({
+        dObj: dVideo,
+        scenes: scenes,
+        defaultScene: "s1",
+        paused: false
+    });
+
+    dChangeBtn.click(function(e){
+        e.preventDefault();
+        var dThis = $(this);
+        scenesObj.changeScene(dThis.data('scene'));
+    });
+
+    $('.setTime').click(function(e){
+        e.preventDefault();
+        var dThis = $(this);
+        scenesObj.seekScene();
+    });
+
+
+
+
+
+    function videoScene(opts) {
+        var config = $.extend({}, {
+            dObj: null,
+            scenes: null,
+            defaultScene: null,
+            paused: false,
+            loop:false
+        }, opts);
+
+        //如果沒有必要的物件return 
+        if (!config.scenes &&  !config.dObj && !config.defaultScene) {
+            console.log('初始化資料不足');
+            return false;
+        }
+
+        var _this = this;
+        var currentName = config.defaultScene;
+        var dVideo = config.dObj;
+
+
+        this.changeScene = function(sceneName,offset,callback,paused) {
+            if(checkVideo(sceneName)){
+
+                dVideo.pause();
+                $(dVideo).fadeOut('slow').fadeIn('slow');
+
+                dVideo.setAttribute("src", config.scenes[sceneName][plyeType]);
+
+                dVideo.addEventListener('canplay', function(){
+                    console.log('canplay');
+                    dVideo.play();
+                }, false);
+
+
+            }       
+        };
+
+        this.seekScene = function(offset,duration,loop){
+            dVideo.currentTime = 5;
+            dVideo.play();
+            setTimeout(function(){
+                dVideo.pause();
+            }, 800); 
+        };
+
+        this.video = function() {
+            return config.dObj;
+        };
+
+        function checkVideo(sceneName){
+            if (!(config.scenes[sceneName] && config.scenes[sceneName][plyeType])) {
+                console.log('找不到可以初始化的影片');
+                return false;
+            }else {
+                return true;
+            }
+        };
+
+        function init() {
+            var playType = "";
+
+            if (dVideo.canPlayType) {
+                mpeg4 = "" !== dVideo.canPlayType('video/mp4');
+                webm = "" !== dVideo.canPlayType('video/webm');
+            }
+
+            if (mpeg4) {
+                plyeType = 'video/mp4';
+            } else if (webm) {
+                plyeType = 'video/webm';
+            }
+
+            
+            if(checkVideo(currentName)){
+                dVideo.setAttribute("src", config.scenes[currentName][plyeType]);
+                dVideo.load();
+                if(!config.paused){
+                    dVideo.play();
+                }
+            }
+        };
+
+        init();
+
+    };
+
+
+
+
+
+
+
+
+
+
+    // dVideo.addEventListener('canplay', canplay, false);
+
+    // dVideo.load();
+    // dVideo.play();
+
+    // function canplay() {
+    //     console.log('canPlay');
+    // }
+    </script>
+</body>
+
+</html>
