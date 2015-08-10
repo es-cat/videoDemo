@@ -14,17 +14,17 @@
     </video>
     <div class="content">
         <div class="btnGroup">
-            <a href="#" class="btn changeSbtn" title="" data-scene="s1">按我切到影片1</a>
-            <a href="#" class="btn changeSbtn" title="" data-scene="s2">按我切到影片2</a>
-            <a href="#" class="btn setTime" title="" data-seekto="5000" data-seekend="5000">按我到五秒後，且撥發五秒後暫停</a>
-            <a href="#" class="btn" title="" data-seekto="5000">按我從五秒後撥到結束</a>
+            <a href="#" class="btn js-changeSbtn" title="" data-scene="s1">按我切到影片1</a>
+            <a href="#" class="btn js-changeSbtn" title="" data-scene="s2">按我切到影片2</a>
+            <a href="#" class="btn js-seekTimeWithLoopBtn">按我到五秒後，且撥發五秒後暫停</a>
+            <a href="#" class="btn js-seekTimeWithStopBtn" title="">按我從五秒後撥到結束</a>
         </div>
     </div>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="preloadjs-0.6.1.min.js"></script>
     <script>
     var dVideo = $('#video')[0];
-    var dChangeBtn = $('.changeSbtn');
+    var dChangeBtn = $('.js-changeSbtn');
     var scenes = {
         s1: {
             'video/mp4': "http://friendosit.blob.core.windows.net/asset-346b385d-1500-80c3-aee9-f1e535c98a55/big_buck_bunny_1080p_H264_AAC_25fps_7200K_H264_6750kbps_AAC_und_ch2_128kbps.mp4?sv=2012-02-12&sr=c&si=b2694ea7-f5b4-408c-b178-a7bf51753aab&sig=ys0zZUCLvM08e10ZZwmbYc5vpNIB5PkjhMBQFPx6Ri8%3D&st=2015-07-29T08%3A38%3A20Z&se=2115-07-05T08%3A38%3A20Z",
@@ -46,13 +46,24 @@
     dChangeBtn.click(function(e){
         e.preventDefault();
         var dThis = $(this);
-        scenesObj.changeScene(dThis.data('scene'));
+        scenesObj.changeScene({
+            sceneName: dThis.data('scene'),
+            loop:false,
+            paused: false,
+            callback: null,
+        });
     });
 
-    $('.setTime').click(function(e){
+    $('.js-seekTimeWithLoopBtn').click(function(e){
         e.preventDefault();
         var dThis = $(this);
-        scenesObj.seekScene();
+        scenesObj.seekScene(5,5,true);
+    });
+
+    $('.js-seekTimeWithStopBtn').click(function(e){
+        e.preventDefault();
+        var dThis = $(this);
+        scenesObj.seekScene(5,5,false);
     });
 
 
@@ -64,8 +75,11 @@
             dObj: null,
             scenes: null,
             defaultScene: null,
+            offset: 0,
+            duration: null,
             paused: false,
-            loop:false
+            loop:false,
+            listMode:false
         }, opts);
 
         //如果沒有必要的物件return 
@@ -78,34 +92,101 @@
         var currentName = config.defaultScene;
         var dVideo = config.dObj;
 
+        this.changeScene = function(opts) {
+            var seekConfig = $.extend({}, {
+                sceneName: null,
+                offset: 0,
+                duration: null,
+                loop:false,
+                paused: false,
+                callback: null,
+            }, opts);
 
-        this.changeScene = function(sceneName,offset,callback,paused) {
+            _this.resetSence();
+
             if(checkVideo(sceneName)){
 
                 dVideo.pause();
-                $(dVideo).fadeOut('slow').fadeIn('slow');
+                $(dVideo).fadeOut('slow');
 
                 dVideo.setAttribute("src", config.scenes[sceneName][plyeType]);
-
+                $(dVideo).fadeIn('slow');
+                
                 dVideo.addEventListener('canplay', function(){
-                    console.log('canplay');
-                    dVideo.play();
+                    if(seekConfig.offset){
+
+                    }
+                    dVideo.loop = seekConfig.loop;
+                    seekConfig.paused ? dVideo.pause() : dVideo.play();
+                    if(seekConfig.callback){seekConfig.callback()}
                 }, false);
 
 
             }       
         };
 
-        this.seekScene = function(offset,duration,loop){
-            dVideo.currentTime = 5;
+
+
+        this.seekScene = function(opts){
+            var seekConfig = $.extend({}, {
+                offset: 0,
+                duration: null,
+                loop: false,
+                onRepeat: null,
+                onCompleted:null
+            }, opts);
+            
+            _this.resetSence();
+
+            dVideo.currentTime = seekConfig.offset;
             dVideo.play();
-            setTimeout(function(){
-                dVideo.pause();
-            }, 800); 
+
+            if(seekConfig.loop && seekConfig.duration){
+                var loopCount = 0;
+                var startLoop = function(){
+                    _this.loopTimeout = setTimeout(function(){
+
+                        if(seekConfig.onRepeat){ seekConfig.onRepeat(loopCount)}
+
+                        dVideo.currentTime = seekConfig.offset;
+                        loopCount++;
+                        startLoop();
+                    }, seekConfig.duration*1000);
+                }
+
+                startLoop();
+
+            }else if(seekConfig.duration) {
+                _this.loopTimeout =  setTimeout(function(){
+                    dVideo.pause();
+                    if(seekConfig.onCompleted){ seekConfig.onCompleted()}
+                }, seekConfig.duration*1000);     
+            }
+        };
+
+        this.playList = function(opts){
+            var listConfig =  $.extend({}, {
+                list: null,//播放清單
+                loop:false//是否重複播放清單
+            }, opts);
+
+            _this.resetSence();
+
+
         };
 
         this.video = function() {
             return config.dObj;
+        };
+
+        this.resetSence = function(){
+            if( _this.loopTimeout){
+                clearTimeout(_this.loopTimeout);
+                dVideo.loop = false;
+            }
+
+            //removeEvent
+            //dVideo.removeEventListener("onend", function(){});
         };
 
         function checkVideo(sceneName){

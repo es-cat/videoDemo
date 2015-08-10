@@ -523,18 +523,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 4470,
+				"buffer_size": 5394,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "",
-			"file": "video.js",
-			"file_size": 0,
-			"file_write_time": 130833001291969439,
+			"file": "/D/Fed_Study/F2E course/web/template_jquery_plugin.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 426,
 				"line_ending": "Windows"
 			}
 		},
@@ -542,7 +539,7 @@
 			"file": "main.scss",
 			"settings":
 			{
-				"buffer_size": 731,
+				"buffer_size": 779,
 				"line_ending": "Windows"
 			}
 		},
@@ -767,6 +764,7 @@
 	},
 	"file_history":
 	[
+		"/D/myGit/friendo/videoDemo/video.js",
 		"/C/Users/laura.luo/Desktop/template_jquery_plugin.js",
 		"/D/myGit/StudyGroup/lala/project/cardReact/js/core_viewsCtrls.js",
 		"/D/myGit/StudyGroup/lala/project/cardUI/js/main.js",
@@ -893,8 +891,7 @@
 		"/D/myGit/GreenSock-ShockinglyGreen-js/GreenSock-ShockinglyGreen-js/berizerTest.html",
 		"/D/myGit/GreenSock-ShockinglyGreen-js/GreenSock-ShockinglyGreen-js/getting_started.html",
 		"/D/myGit/myBlog/source/_drafts/web-animation-02-1-css3-transform.md",
-		"/C/Users/laura.luo/Desktop/motion_paths_start.html",
-		"/C/Users/laura.luo/Desktop/motion_paths_start_edgePreload.js"
+		"/C/Users/laura.luo/Desktop/motion_paths_start.html"
 	],
 	"find":
 	{
@@ -920,6 +917,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"setDefault",
+			"videos",
+			"this",
+			"sence",
 			"\">",
 			"load",
 			"mp4Urls",
@@ -1043,11 +1044,7 @@
 			"popContent",
 			"contentPop",
 			"postPop",
-			"content",
-			"footer",
-			"post",
-			"src=\"/images",
-			"/images"
+			"content"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1193,7 +1190,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1201,15 +1198,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 4470,
+						"buffer_size": 5394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4452,
-								4452
+								4126,
+								4126
 							]
 						],
 						"settings":
@@ -1220,31 +1217,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1242.0,
+						"translation.y": 1933.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "video.js",
+					"file": "/D/Fed_Study/F2E course/web/template_jquery_plugin.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								170,
+								115
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/JSX/JSX-real.tmLanguage"
+							"syntax": "Packages/JSX/JSX-real.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1255,7 +1253,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1263,15 +1261,15 @@
 					"file": "main.scss",
 					"settings":
 					{
-						"buffer_size": 731,
+						"buffer_size": 779,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								557,
-								557
+								57,
+								57
 							]
 						],
 						"settings":
@@ -1297,8 +1295,8 @@
 						"selection":
 						[
 							[
-								3266,
-								3266
+								6708,
+								6561
 							]
 						],
 						"settings":
@@ -1309,7 +1307,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2553.0,
+						"translation.y": 3598.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1345,7 +1343,7 @@
 		"cols":
 		[
 			0.0,
-			0.939711664482,
+			0.590599308948,
 			1.0
 		],
 		"rows":
@@ -1384,6 +1382,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 394.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true
 }
