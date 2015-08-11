@@ -18,6 +18,7 @@
             <a href="#" class="btn js-changeSbtn" title="" data-scene="s2">按我切到影片2</a>
             <a href="#" class="btn js-seekTimeWithLoopBtn">按我到五秒後，且撥發五秒後暫停</a>
             <a href="#" class="btn js-seekTimeWithStopBtn" title="">按我從五秒後撥到結束</a>
+            <a href="#" class="btn js-playListBtn" title="">把1跟2加入播發清單</a>
         </div>
     </div>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -54,16 +55,25 @@
         });
     });
 
-    $('.js-seekTimeWithLoopBtn').click(function(e){
-        e.preventDefault();
-        var dThis = $(this);
-        scenesObj.seekScene(5,5,true);
-    });
+    // $('.js-seekTimeWithLoopBtn').click(function(e){
+    //     e.preventDefault();
+    //     var dThis = $(this);
+    //     scenesObj.seekScene(5,5,true);
+    // });
 
-    $('.js-seekTimeWithStopBtn').click(function(e){
+    // $('.js-seekTimeWithStopBtn').click(function(e){
+    //     e.preventDefault();
+    //     var dThis = $(this);
+    //     scenesObj.seekScene(5,5,false);
+    // });
+
+    $('.js-playListBtn').click(function(e){
         e.preventDefault();
         var dThis = $(this);
-        scenesObj.seekScene(5,5,false);
+        scenesObj.playList({
+            list:["s2","s1"],
+            loop:true
+        });
     });
 
 
@@ -89,44 +99,44 @@
         }
 
         var _this = this;
-        var currentName = config.defaultScene;
+        _this.currentScene = config.defaultScene;
         var dVideo = config.dObj;
 
+        //換影片
         this.changeScene = function(opts) {
-            var seekConfig = $.extend({}, {
+            var changeConfig = $.extend({}, {
                 sceneName: null,
                 offset: 0,
-                duration: null,
                 loop:false,
                 paused: false,
-                callback: null,
+                callback: null
             }, opts);
 
             _this.resetSence();
 
-            if(checkVideo(sceneName)){
+            if(checkVideo(changeConfig.sceneName)){
 
                 dVideo.pause();
                 $(dVideo).fadeOut('slow');
 
-                dVideo.setAttribute("src", config.scenes[sceneName][plyeType]);
+                dVideo.setAttribute("src", config.scenes[changeConfig.sceneName][plyeType]);
                 $(dVideo).fadeIn('slow');
-                
+                _this.currentScene = 
                 dVideo.addEventListener('canplay', function(){
-                    if(seekConfig.offset){
-
+                    if(changeConfig.offset){
+                        dVideo.currentTime = changeConfig.offset;
                     }
-                    dVideo.loop = seekConfig.loop;
-                    seekConfig.paused ? dVideo.pause() : dVideo.play();
-                    if(seekConfig.callback){seekConfig.callback()}
+
+                    dVideo.loop = changeConfig.loop;
+
+                    changeConfig.paused ? dVideo.pause() : dVideo.play();
+                    if(changeConfig.callback){changeConfig.callback()}
                 }, false);
-
-
             }       
         };
 
 
-
+        //跳轉
         this.seekScene = function(opts){
             var seekConfig = $.extend({}, {
                 offset: 0,
@@ -164,13 +174,54 @@
             }
         };
 
+        //播放清單的功能
+        this.listIndex = 0;
+
         this.playList = function(opts){
             var listConfig =  $.extend({}, {
                 list: null,//播放清單
                 loop:false//是否重複播放清單
             }, opts);
 
+
             _this.resetSence();
+
+            //fake
+            //listConfig.list = ["s1","s2"];
+
+            if(listConfig.list.length > 0 && checkVideo(listConfig.list[0])){
+                var listLength = listConfig.list.length;
+                var next = {};
+                _this.listIndex = 0;
+
+                _this.changeScene({
+                    sceneName: listConfig.list[_this.listIndex]                 
+                });
+
+                next = function(e){
+                    console.log(e);
+                    
+                    if(_this.listIndex < listLength-1){
+                        _this.listIndex++;
+
+                        _this.changeScene({sceneName: listConfig.list[_this.listIndex]});
+                              
+                    }else if(_this.listIndex == listLength-1) {
+                        if(listConfig.loop){
+                            _this.listIndex = 0;
+                            _this.changeScene({sceneName: listConfig.list[_this.listIndex]});
+                        }else {
+                            dVideo.removeEventListener('ended', next);     
+                        }
+                    }
+                };
+
+                dVideo.addEventListener('ended', next);
+            }
+
+
+
+
 
 
         };
@@ -184,9 +235,10 @@
                 clearTimeout(_this.loopTimeout);
                 dVideo.loop = false;
             }
-
+            this.palyIndex = 0;
             //removeEvent
-            //dVideo.removeEventListener("onend", function(){});
+            dVideo.removeEventListener("ended", function(){});
+            dVideo.removeEventListener("canplay", function(){});
         };
 
         function checkVideo(sceneName){
@@ -213,8 +265,8 @@
             }
 
             
-            if(checkVideo(currentName)){
-                dVideo.setAttribute("src", config.scenes[currentName][plyeType]);
+            if(checkVideo(_this.currentScene)){
+                dVideo.setAttribute("src", config.scenes[_this.currentScene][plyeType]);
                 dVideo.load();
                 if(!config.paused){
                     dVideo.play();
